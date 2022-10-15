@@ -13,6 +13,6 @@ class Student():
         self.score = (self.score * self.raise_amt)
 
     def __call__(self):
-        pass
+        return self.fullname()
 
-    
+std1 = Student('Passakorn','Pattarapakorn',10)
