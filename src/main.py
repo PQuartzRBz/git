@@ -1,3 +1,6 @@
+from turtle import st
+
+
 class Student():
     raise_amt = 1.04
 
@@ -26,3 +29,8 @@ std2 = Student('Peerawich','Pattarapakorn',25)
 std1.apply_raise()
 print(std1())
 print(std1 + std2)
+
+class RAI(Student):
+    def department(self):
+        pass
+    
