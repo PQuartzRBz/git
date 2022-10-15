@@ -24,13 +24,29 @@ class Student():
     def __add__(self, other):
         return self.score + other.score
 
-std1 = Student('Passakorn','Pattarapakorn',10)
-std2 = Student('Peerawich','Pattarapakorn',25)
+
+
+class RAI(Student):
+    def __init__(self, first, last, score):
+        super().__init__(first, last, score)
+        self.department = 'RAI'
+    
+class EE(Student):
+    def __init__(self, first, last, score):
+        super().__init__(first, last, score)
+        self.department = 'EE'
+
+class ME(Student):
+    def __init__(self, first, last, score):
+        super().__init__(first, last, score)
+        self.department = 'ME'
+
+std1 = RAI('Passakorn','Pattarapakorn',10)
+std2 = EE('Peerawich','Pattarapakorn',25)
+std3 = ME('Kuntara','Pattarapakorn',25)
 std1.apply_raise()
 print(std1())
 print(std1 + std2)
-
-class RAI(Student):
-    def department(self):
-        pass
-    
+print(std1.department)
+print(std2.department)
+print(std3.department)
