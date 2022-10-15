@@ -15,4 +15,14 @@ class Student():
     def __call__(self):
         return self.fullname()
 
+    def __len__(self):
+        return len(self.first)
+
+    def __add__(self, other):
+        return self.score + other.score
+
 std1 = Student('Passakorn','Pattarapakorn',10)
+std2 = Student('Peerawich','Pattarapakorn',25)
+std1.apply_raise()
+print(std1())
+print(std1 + std2)
