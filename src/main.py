@@ -1,7 +1,7 @@
-from turtle import st
+from abc import ABC, abstractmethod
 
 
-class Student():
+class Student(ABC):
     raise_amt = 1.04
 
     def __init__(self, first, last, score):
@@ -24,8 +24,9 @@ class Student():
     def __add__(self, other):
         return self.score + other.score
 
+    @abstractmethod
     def get_department(self):
-        raise NotImplementedError
+        pass
 
 
 class RAI(Student):
@@ -55,9 +56,11 @@ class ME(Student):
 std1 = RAI('Passakorn','Pattarapakorn',10)
 std2 = EE('Peerawich','Pattarapakorn',25)
 std3 = ME('Kuntara','Pattarapakorn',25)
+
 std1.apply_raise()
 print(std1())
 print(std1 + std2)
 print(std1.get_department())
+
 print(std2.department)
 print(std3.department)
