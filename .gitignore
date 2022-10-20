@@ -206,3 +206,24 @@ cython_debug/
 #.idea/
 
 test idea
+cuda-python-main.zip
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive.zip
+.cnn-venv/pyvenv.cfg
+.cnn-venv/Scripts/activate
+.cnn-venv/Scripts/activate.bat
+.cnn-venv/Scripts/Activate.ps1
+.cnn-venv/Scripts/deactivate.bat
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/LICENSE
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_adv_infer.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_adv_train.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_backend.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_cnn_infer.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_cnn_train.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_ops_infer.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_ops_train.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn_version.h
+.cnn-venv/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include/cudnn.h
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+.gitignore
