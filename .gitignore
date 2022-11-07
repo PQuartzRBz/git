@@ -227,3 +227,4 @@ cuda-python-main.zip
 .vscode/settings.json
 .vscode/tasks.json
 .gitignore
+src/materials
