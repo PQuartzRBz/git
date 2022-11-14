@@ -32,3 +32,14 @@ epoch = 2, batch size = 32, no dropout{
     Train Accuracy: 98.29
     Test Accuracy: 97.29
 }
+
+
+logging setting + output
+learn ymal file
+
+optional
+print feature map
+arg pharser
+.bat
+
+dropout random blackout each round
