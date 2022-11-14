@@ -25,7 +25,7 @@ img_height,img_width=224,224
 
 ds = torchvision.datasets.ImageFolder(ds_dir)
 
-BATCH_SIZE = 64
+BATCH_SIZE = 32
 
 ## transformations
 transform = transforms.Compose([
